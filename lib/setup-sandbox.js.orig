@@ -64,8 +64,7 @@ Object.defineProperties(global, {
 	global: {value: global, writable: true, configurable: true, enumerable: true},
 	globalThis: {value: global, writable: true, configurable: true},
 	GLOBAL: {value: global, writable: true, configurable: true},
-	root: {value: global, writable: true, configurable: true},
-	Error: {value: LocalError}
+	root: {value: global, writable: true, configurable: true}
 });
 
 if (!localReflectDefineProperty(global, 'VMError', {
